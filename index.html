@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Wedding.com</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="img/logo.png" alt="Wedding.com">
+    </div>
+    <ul>
+      <li class="item"><a href="#home">Home</a></li>
+      <li class="item"><a href="#thought-container">What We Do </a></li>
+      <li class="item"><a href="#product1-container">Our Work</a></li>
+      <li class="item"><a href="#container">Our Speciality</a></li>
+      <li class="item"><a href="#product11-container">Destinations</a></li>
+      <li class="item"><a href="#about-container">About Us</a></li>
+
+
+      <li class="item"><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+
+  </section>
+
+  <section id="people">
+
+    <style>
+      .responsive {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+
+    <img src="img/first new.PNG" alt="Nature" class="responsive" width="600" height="400">
+
+
+  </section>
+
+  <section id="thought-container">
+    <div id="thoughtoftheday">
+      <div class="box">
+        <img src="img/thought.PNG" alt="">
+        <h2 class="h-secondary center">Full-Service Wedding Planning</h2>
+        <h5 class="h-primary1 center">It’s official. You’re finally engaged (with the ring to prove it).</h5>
+        <p class="center">You’ve been waiting for this moment long enough and now that the urge to yell “I’m engaged”
+          from atop Fenway’s Green Monster has started to subside, it’s time to start planning, your needs and your
+          budget.</p>
+      </div>
+
+
+    </div>
+  </section>
+  <section id="uniquecontainer">
+    <h1 class="h-primary center">Even Simpler Than You Think </h1>
+    <h1 class="h-primary1 center">How It works? </h1>
+
+
+    <div id="unique">
+      <div class="box">
+        <img src="img/u1.png" alt="">
+        <h2 class="h-secondary center">Wedding Design + Management</h2>
+        <p class="center">You started planning and already have the big stuff (caterer, venue) taken care of... but
+          let's face it: you've never planned a wedding before- it's time to bring in a pro to take care of all the
+          details.
+
+          This package is the solution for anyone in need of something in between full planning and month of
+          coordination.</p>
+      </div>
+      <div class="box">
+        <img src="img/u2.png" alt="">
+        <h2 class="h-secondary center"> Month of Coordination</h2>
+        <p class="center">Sometimes mom ends up being the director, the florist and the planner. She tells guests where
+          to sit, the wedding party when to walk down the aisle, and she might even make her debut as a DJ.
+
+          It might work for some weddings. But not yours.</p>
+      </div>
+      <div class="box">
+        <img src="img/u3.png" alt="">
+        <h2 class="h-secondary center">Hourly Wedding Consultation</h2>
+        <p class="center">Oh boy! You’ve just got engaged- what now? If you did a face palm when you realized that
+          you’ve got a wedding to plan, but you’re completely clueless on where to even start, then Happy Hour is your
+          knight in shining armor.
+
+          You bring the questions, we’ll provide the answers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="quote-container">
+    <h1 class="h-primary center">Getting Married?</h1>
+    <h5 class="h-primary center">Longlist of wedding requirements?</h5>
+    <h5 class="h-primary center">We are here to help you !!</h5>
+
+  </section>
+
+
+  <section id="product1-container">
+    <h3 class="h-primary1 center">Just have a quick look at designs
+
+    </h3>
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+
+
+      <div class="row">
+        <div class="column">
+          <img src="img/wed5.PNG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/wed6.PNG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/wed7.PNG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/wed8.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+  </section>
+  <br>
+
+  <section id="product1-container">
+
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+
+
+      <div class="row">
+        <div class="column">
+          <img src="img/wed1.PNG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/wed2.PNG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/wed3.PNG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/wed4.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+  </section>
+  <br>
+  <br>
+
+
+
+
+
+
+  <section>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        padding: 64px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both
+      }
+
+      .column-66 {
+        float: left;
+        width: 66.66666%;
+        padding: 20px;
+      }
+
+      .column-33 {
+        float: left;
+        width: 33.33333%;
+        padding: 20px;
+      }
+
+      .large-font {
+        font-size: 48px;
+      }
+
+      .xlarge-font {
+        font-size: 64px
+      }
+
+      .button {
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+      }
+
+      img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+
+      @media screen and (max-width: 1000px) {
+
+        .column-66,
+        .column-33 {
+          width: 100%;
+          text-align: center;
+        }
+
+        img {
+          margin: auto;
+        }
+      }
+    </style>
+    </head>
+
+    <body>
+
+      <div style="text-align:center">
+        <h2>From Bridal Lehengas to Wedding Venues to Wedding Photographers</h2>
+
+      </div>
+
+      <!-- The App Section -->
+      <div class="container" id="container">
+        <div class="row">
+          <div class="column-66">
+            <h1 class="xlarge-font"><b>Venue Booking Service</b></h1>
+            <h1 class="large-font" style="color:MediumSeaGreen;"><b>Best price guaranteed</b></h1>
+
+            <p><span style="font-size:36px">Destination weddings</span> are the coolest trends in weddings. Find best
+              and
+              trending destinations to have a destination wedding of your choice - budget, luxury or exotic. Explore
+              other fun destinations for honeymoon, weekend getaways, mini honeymoons and pre wedding shoots..</p>
+
+
+          </div>
+          <div class="column-33">
+            <img src="img/destination1.PNG" width="335" height="500">
+          </div>
+        </div>
+      </div>
+
+      <!-- Clarity Section -->
+      <div class="container" style="background-color:#f1f1f1">
+        <div class="row">
+          <div class="column-33">
+            <img src="img/pre wed.PNG" alt="App" width="335" height="471">
+          </div>
+          <div class="column-66">
+            <h1 class="xlarge-font"><b>Wedding Photography</b></h1>
+            <h1 class="large-font" style="color:red;"><b>800+ Expert photographers</b></h1>
+            <p><span style="font-size:24px">For wedding photography</span> We've listed our top wedding photographer
+              picks from various Indian cities who've pleasantly surprised us with their amazing and innovative work -
+              pathbreaking and trend-setting! Know more about these photographers and find out why you should book them
+              for your wedding..</p>
+        
+          </div>
+        </div>
+      </div>
+
+      <!-- The App Section -->
+      <div class="container">
+        <div class="row">
+          <div class="column-66">
+            <h1 class="xlarge-font"><b>Memoriable Honeymoon</b></h1>
+            <h1 class="large-font" style="color:MediumSeaGreen;"><b>Explore best destinations of the world</b></h1>
+            <p><span style="font-size:36px">Explore best honeymoon</span>  places for a romantic & fulfulling honeymoon. Find undiscovered honeymoon destinations in India & around the world. See amazing & off beat honeymoon locations. Get tips on how to plan your honeymoon & activities to do. Find cute locations for mini honeymoon & romantic getaways.
+
+            </button>
+          </div>
+          <div class="column-33">
+            <img src="img/honey.PNG" width="335" height="471">
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <section id="product1-container">
+    <h3 class="h-primary1 center">Planning Wedding Made Easy
+
+    </h3>
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+      <h2 style="text-align:center"> <b>From Bridal Lehengas to Wedding Venues to Wedding Photographers, we have curated
+          the best of the Wedding Vendors</b></h2>
+
+      <div class="row">
+        <div class="column">
+          <img src="img/w1.PNG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w2.PNG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w3.PNG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w4.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+
+  </section>
+
+
+  <section id="product1-container">
+
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+      <div class="row">
+        <div class="column">
+          <img src="img/w5.PNG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w6.PNG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w7.PNG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w8.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+  </section>
+
+  <section id="product1-container">
+
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+      <div class="row">
+        <div class="column">
+          <img src="img/w9.PNG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w10.PNG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w11.PNG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/w12.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+  </section>
+
+
+
+  <section id="product1-container">
+    <h3 class="h-primary1 center">Popular destinations
+
+    </h3>
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+      <h2 style="text-align:center"> <u><i>Make your wedding memoriable</i></u> </h2>
+
+      <div class="row">
+        <div class="column">
+          <img src="img/dest1.PNG" style="width:100%" onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/dest2.PNG" style="width:100%" onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/dest3.PNG" style="width:100%" onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/dest4.PNG" style="width:100%" onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+  </section>
+
+  <section id="product11-container">
+
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row>.column {
+        padding: 0 8px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+
+
+      img {
+        margin-bottom: -4px;
+      }
+
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+
+    <body>
+
+      >
+
+      <div class="row">
+        <div class="column">
+          <img src="img/dest5.PNG" style="width:100%" onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/dest6.PNG" style="width:100%" onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/dest7.PNG" style="width:100%" onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/dest8.PNG" style="width:100%" onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor">
+        </div>
+      </div>
+
+
+  </section>
+
+  <section>
+
+    <style>
+      .responsive {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    <h3 class="h-primary1 center">Destinations we offer
+
+    </h3>
+
+    <img src="img/destination.PNG" alt="Nature" class="responsive" width="600" height="400">
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="why-container">
+    <h1 class="h-primary center">why we?</h1>
+    <div id="why">
+      <div class="box">
+        <img src="img/png11.png" alt="">
+        <h2 class="h-secondary center">Best price guaranteed</h2>
+        <p class="center">Upto 30% or more discount from market prices
+          .</p>
+      </div>
+      <div class="box">
+        <img src="img/png22.jpg" alt="">
+        <h2 class="h-secondary center">Personalized Site Visits</h2>
+        <p class="center">Meet the decision makers in the venue</p>
+      </div>
+      <div class="box">
+        <img src="img/png33.jpg" alt="">
+        <h2 class="h-secondary center">Convenience</h2>
+        <p class="center">Shortlist venues from the comfort of home</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+
+  </section>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="about-container">
+    <div id="about">
+      <div class="box">
+
+        <h2 class="h-secondary center"> About Us</h2>
+        <p class="center"> Wedding.com is India’s most loved Wedding Planning website! Check prices, verified reviews
+          and
+          book best wedding photographers, bridal makeup artists, wedding venues, decorators, and all other wedding
+          vendors at guaranteed best prices. Get loads of latest wedding ideas & inspiration - bridal fashion, makeup
+          and skincare tips, wedding planning tips, bachelorette & honeymoon ideas from India's largest wedding
+          community & real weddings. ShaadiSaga is proud to have been the official wedding planner of celebrities like
+          Yuvraj Singh & Bhuvneshwar Kumar. We love what we do, and that's how we help plan your wedding like a loved
+          one!
+          wedding.com is a leading Indian wedding planning website with 1000’s of vendors competing for hosting your
+          perfect wedding
+          in budgets that suit you. If you are in search of vendors for your wedding and related ceremonies then your
+          search ends here as we have various categories and every category has the top wedding vendors.
+
+          This Indian Wedding Planning Website brings equal style and detail to every wedding and related event –
+          consulting, designing & coordinating everything from the venue to the theme; the first dance to the last
+          goodbye and there will be no disappointment with the work done by the vendors.
+
+          Now you can choose Dulhaniyaa services to help you save and choose the best from our in-house wedding related
+          services. Strategically divided into 5 segments with our best services, you won't need to spend hours planning
+          a wedding anymore.</p>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <section id="startwork">
+
+    <style>
+      .responsive {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+
+    <img src="img/download.jpg" alt="Nature" class="responsive" width="600" height="400">
+
+
+  </section>
+
+  <section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+      <form action="/action_page.php" class="container">
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" name="name" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number: </label>
+          <input type="number" name="name" id="phone" placeholder="Enter your phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message: </label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="center">
+      Copyright &copy; www.Wedding.com. All rights reserved! Ashutosh Suryawanshi
+    </div>
+
+  </footer>
+</body>
+
+</html>
